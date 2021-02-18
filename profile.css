@@ -1,0 +1,304 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: #333333;
+	font-size: 16px;
+	text-align: left;
+	float: left;
+	font-family: arial;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	background-color: #505050;
+	position: relative;
+}
+
+#header-container {
+	width: 1200px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	background-color: #505050;
+}
+
+#footer-container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+
+.footer-column {
+	position: relative;
+	width: 360px;
+	margin-right: 60px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.footer-column-last {
+	margin-right: 0;
+}
+
+.title {
+	font-family: 'Acme', sans-serif;
+	margin-bottom: 20px;
+	font-size: 22px;
+	position: relative;
+	color: #ffffff;
+}
+
+.title-me {
+	float: left;
+	top: 14px;
+}
+
+
+#titleAbout {
+	position: relative;
+	width: 120px;
+	height: 60px;
+	background-image: url(assets/about.png);
+}
+
+#titleSkills {
+	position: relative;
+	width: 150px;
+	height: 75px;
+	line-height: 56px;
+	margin-bottom: 18px;
+	background-image: url(assets/skills.png);
+}
+
+.text {
+	position: relative;
+	font-family: Arial;
+	font-size: 14px;
+	color: #cccccc;
+	line-height: 20px;
+	margin-bottom: 18px;
+}
+
+#textAbout {
+	position: relative;
+	line-height: 20px;
+	width: 760px;
+	height: 100px;
+	margin: 2em 0 0;
+}
+
+
+#icons-container-right {
+	position: relative;
+	top: 8px;
+	float: right;
+}
+
+.photo {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 30px;
+	border-radius: 50%;
+	background-image: url(assets/profile.png)
+}
+
+.icons {
+	position: relative;
+	margin-right: 8px;
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+	display: inline-block;
+
+}
+
+.icon-last {
+	margin-right: 0;
+}
+
+.icon-twitter {
+	background-image: url(assets/twitter.png);
+}
+
+.icon-linked {
+	background-image: url(assets/linkedin.png);
+}
+
+.icon-email {
+	background-image: url(assets/gmail.png);
+}
+
+#banner {
+	background: url(assets/bg.png) no-repeat 0px 0px;
+	background-size: cover;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+
+}
+
+#content-0 {
+	background-color: #00bff3;
+
+}
+
+#content-1 {
+	background-color: #ffffff;
+}
+
+#content-2 {
+	background-color: #f9bf3b;
+}
+
+
+.content-container {
+	position: relative;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.size1 {
+	height: 350px;
+}
+
+.size2 {
+	height: 300px;
+}
+
+.size3 {
+	margin-top: 30px;
+	height: 600px;
+}
+
+.container-text {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.banner-text {
+	position: absolute;
+	top: 70%;
+	color: #ffffff;
+	font-size: 50px;
+	line-height: 56px;
+	font-family: acme;
+}
+
+.skill-column {
+	position: relative;
+	width: 50%;
+	float: left;
+	margin-right: 60px;
+	margin-bottom: 40px;
+}
+
+.copyright {
+	font-size: 8pt;
+	text-align: right;
+	padding-bottom: 10px;
+	color: #ffffff;
+	margin-right: 10px;
+}
+
+textarea {
+	height: 100px;
+}
+
+input,
+textarea {
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 5px;
+	width: 90%;
+	outline: none;
+}
+
+.submit:hover {
+	background-color: #43a09d;
+}
+
+.submit {
+	width: 30%;
+	background-color: #3fb6b2;
+	padding: 12px 12px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	margin: 0;
+	font-weight: bold;
+}
+
+.skills-left h4 {
+	color: #ffffff;
+	font-size: 23px;
+	text-align: left;
+}
+
+.skills-left p {
+	font-size: 18px;
+	line-height: 27px;
+	font-family: Arial;
+	color: #fdf2f2;
+	margin: 23px 0px;
+}
+
+
+.skills-left,
+.skills-right {
+	margin: 2em 0 0;
+}
+
+li {
+	margin-left: 25px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+progress {
+	width: 90%;
+	height: 20px;
+	color: #3fb6b2;
+	background: #efefef;
+}
+
+progress::-webkit-progress-bar {
+	background: #efefef;
+}
+
+progress::-webkit-progress-value {
+	background: #3fb6b2;
+}
+
+progress::-moz-progress-bar {
+	color: #3fb6b2;
+	background: #efefef;
+}
